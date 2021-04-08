@@ -1,11 +1,11 @@
 const BLOG = {
-  title: 'Learn and share',
+  title: 'Learn and share ',
   author: 'xinghaink',
   email: 'xinghaink@qq.com',
   link: '',
   description: '当下是最年轻的一天',
   lang: 'zh-CN',
-  appearance: 'dark', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
