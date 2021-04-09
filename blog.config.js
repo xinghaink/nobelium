@@ -36,7 +36,7 @@ const BLOG = {
     gitalkConfig: {
       repo: 'https://github.com/xinghaink/GitalkForMe.git', // The repository of store comments
       owner: 'xinghaink',
-      admin: [],
+      admin: ['xinghaink'],
       clientID: '98b5502918c8d2fcda37',
       clientSecret: 'fcd42b69fad44091235a61643841e0ca5810d6c5',
       distractionFreeMode: false
