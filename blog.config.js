@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Learn and share ',
   author: 'xinghaink',
   email: 'xinghaink@qq.com',
-  link: '',
+  link: 'blog.dikr.cn',
   description: '当下是最年轻的一天',
   lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -32,13 +32,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
+      repo: 'https://github.com/xinghaink/GitalkForMe', // The repository of store comments
+      owner: 'xinghaink',
       admin: [],
-      clientID: '',
-      clientSecret: '',
+      clientID: '98b5502918c8d2fcda37',
+      clientSecret: 'fcd42b69fad44091235a61643841e0ca5810d6c5',
       distractionFreeMode: false
     }
   }
