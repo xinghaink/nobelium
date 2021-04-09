@@ -34,9 +34,9 @@ const BLOG = {
     // support provider: gitalk
     provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'https://github.com/xinghaink/GitalkForMe', // The repository of store comments
-      owner: 'https://github.com/xinghaink',
-      admin: [],
+      repo: 'git', // The repository of store comments
+      owner: 'xinghaink',
+      admin: ['xinghaink'],
       clientID: '98b5502918c8d2fcda37',
       clientSecret: 'fcd42b69fad44091235a61643841e0ca5810d6c5',
       distractionFreeMode: false
